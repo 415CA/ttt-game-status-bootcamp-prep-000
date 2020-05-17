@@ -18,6 +18,10 @@ WIN_COMBINATIONS = [
   [2,4,6],
 ]
 
+def position_taken?(board, index)
+ !(board[index] == " " || board[index] == "" || board[index] == nil)
+end
+
 def won?(board)
   if board.all { |box| box == nil }
     false
