@@ -40,9 +40,7 @@ def won?(board)
 end
 
 def full?(board)
-  if board.any? |index|
-    index == nil || index == " " ? false : true
-  end
+  board.any? {|index| index == nil || index == " "} ? false : true
 end
 
 def draw?(board)
