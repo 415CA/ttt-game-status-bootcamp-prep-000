@@ -19,9 +19,9 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  if board.each { |box| box == nil }
+  if board.all { |box| box == nil }
     false
-  elsif condition
+  elsif board.select { |box| box ==  }
 
   end
 
