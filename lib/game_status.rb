@@ -38,3 +38,21 @@ def won?(board)
   end
   return false
 end
+
+def full?(board)
+  if board.any? |index| 
+    index == nil || index == " " ? false : true
+  end
+end
+
+def draw?(board)
+  
+end
+
+def over?(board)
+  
+end
+
+def winner(board)
+  
+end
