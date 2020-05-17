@@ -17,3 +17,12 @@ WIN_COMBINATIONS = [
   [0,4,8],
   [2,4,6],
 ]
+
+def won?(board)
+  if board.each { |box| box == nil }
+    false
+  elsif condition
+
+  end
+
+end
